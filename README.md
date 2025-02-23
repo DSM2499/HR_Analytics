@@ -79,7 +79,3 @@ Finally, the machine learning models confirmed that overworking employees is a s
 - **Investigate Employee Satisfaction at the Four-Year Mark**: Conduct an internal review to understand why employees at this stage report lower satisfaction and address potential policy or workload issues.
 - **Balance Long Working Hours with Rewards**: Either reduce the expectation for long working hours or introduce rewards and incentives for employees who consistently put in extra effort to prevent dissatisfaction and burnout.
 - **Revise Evaluation Metrics**: Ensure that high performance evaluations are not solely based on the number of hours worked. Implement a more balanced system that rewards both effort and efficiency, ensuring employees who contribute effectively without overworking are recognized.
-
-### Next Steps
-- It may be justified to still have some concern about data leakage. It could be prudent to consider how predictions change when last_evaluation is removed from the data. It's possible that evaluations aren't performed very frequently, in which case it would be useful to be able to predict employee retention without this feature. It's also possible that the evaluation score determines whether an employee leaves or stays, in which case it could be useful to pivot and try to predict performance score. The same could be said for satisfaction score.
-- For another project, you could try building a K-means model on this data and analyzing the clusters. This may yield valuable insight.
